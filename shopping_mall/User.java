@@ -6,6 +6,11 @@ public class User {
 
     //결제 유형
     private PayType payType;
+
+    public User(String name, PayType payType) {
+        this.name = name;
+        this.payType = payType;
+    }
     //이름과 결제 정보를 파라미터로 가지는 생성자
 
     public String getName(){
